@@ -101,43 +101,6 @@ $syan\t╚═╝     ╚═╝  ╚═╝  ╚═╝
 \t$green        ☞ Facebook: Phú Phạm
 \t$red2        ☞ Nhớ Đăng Kí Kênh Nha
 \033[1;33m\t╚═♫════════════════════════════════════════♫╝\n\n";
-#KEY
-$xnhac = "\033[1;36m";
-$do = "\033[1;31m";
-$luc = "\033[1;32m";
-$vang = "\033[1;33m";
-$xduong = "\033[1;34m";
-$hong = "\033[1;35m";
-$trang = "\033[1;37m";
-$ress = "\033[0;32m";
-$res = "\033[0;33m";
-$red = "\033[0;31m";
-$green = "\033[0;37m";
-$yellow = "\033[0;33m";
-$white = "\033[0;33m";
-$xnhac = "\033[1;96m";
-$den = "\033[1;90m";
-$do = "\033[1;91m";
-$luc = "\033[1;92m";
-$vang = "\033[1;93m";
-$xduong = "\033[1;94m";
-$hong = "\033[1;95m";
-$trang = "\033[1;97m";
-$do="\033[1;91m";
-$maufulldo= "\e[1;47;31m";
-$res="\033[0m";
-$red="\e[1;31m";
-$pink="\e[1;35m";
-$green="\e[1;32m";
-$yellow="\e[1;33m";
-$y2="\033[0;33m";
-$white= "\033[0;37m";
-$cyan= "\e[1;36m";
-$blue="\e[1;34m";
-$ngreen="\033[42m";
-$ngblack="\033[40m";
-$nen="\033[1;47;1;34m";
-
 $string = strlen($banner);
 for($i=0; $i<=$string; $i++){
 echo $banner[$i];usleep(500);}
@@ -161,6 +124,7 @@ echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
        }
        }	
 @system('clear');
+
 /* TAO DATA*/
 @include("datateam.php");
 if(file_exists("datateam.php") != true){
@@ -216,7 +180,7 @@ function POST($host,$tsm,$data){
   return $mr2;}
 
 function GET($host,$tsm){
-  $mr = curl_init();
+  $mr = curl__init();
   curl_setopt_array($mr, array(
   CURLOPT_HEADER => true,
   CURLOPT_PORT => "443",
