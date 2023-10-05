@@ -652,7 +652,6 @@ $chung=json_decode($chung,true);
 $nokoi=$chung['error']['code'];
 ////echo "$nokoi\n";
 ///////////////////////////////////////////////////////////
-if($nokoi==404 or $nokoi==401 or $nokoi==400){
 echo $n. "🔄 $id Lỗi $nokoi Quay Lại ! [ $kopo ]";
 echo "\r";
 continue;
