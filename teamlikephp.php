@@ -137,18 +137,18 @@ $blue="\e[1;34m";
 $ngreen="\033[42m";
 $ngblack="\033[40m";
 $nen="\033[1;47;1;34m";
-
+<?php
 
 $string = strlen($banner);
 for($i=0; $i<=$string; $i++){
 echo $banner[$i];usleep(500);}
+
 while (true){
 echo $thuong.$trang."Mỗi Ngày 1 Key, Key Sẽ Thay Đổi Sau 12h Đêm\n";
 echo $thuong."\033[1;32mLink lấy key: ".$red."https://tokoda.top/gvQOzP\n";
 echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
       $makey = trim(fgets(STDIN));
-    if ($makey == $checkkey[0]) 
-   if if (true)
+    if (true) 
     {
     sleep(1);
         echo "\033[1;32";
