@@ -137,7 +137,6 @@ $blue="\e[1;34m";
 $ngreen="\033[42m";
 $ngblack="\033[40m";
 $nen="\033[1;47;1;34m";
-<?php
 
 $string = strlen($banner);
 for($i=0; $i<=$string; $i++){
