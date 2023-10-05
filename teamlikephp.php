@@ -725,6 +725,3 @@ echo$green2."=========>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<=========\n";
 echo $yellow."[$white$job$yellow] $blue2 ID: $lightcyan$id $blue2  NHẬN: ";
 echo $lightcyan.$kq;
 echo $white." XU: $xu\n";
-
-
-	
