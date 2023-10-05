@@ -137,11 +137,7 @@ $blue="\e[1;34m";
 $ngreen="\033[42m";
 $ngblack="\033[40m";
 $nen="\033[1;47;1;34m";
-$checkkey  = file('https://pastebin.com/raw/hY6R64GD');
-$lock=file_get_contents('https://pastebin.com/raw/hY6R64GD');
-$keylock=md5(htmlspecialchars($lock));
-if (md5('lock') != $keylock){
-}
+
 
 $string = strlen($banner);
 for($i=0; $i<=$string; $i++){
@@ -152,7 +148,7 @@ echo $thuong."\033[1;32mLink lấy key: ".$red."https://tokoda.top/gvQOzP\n";
 echo $thuong."\033[1;33mNhập Key Để Vào Tool: \033[1;32m";
       $makey = trim(fgets(STDIN));
     if ($makey == $checkkey[0]) 
-   
+   if if (true)
     {
     sleep(1);
         echo "\033[1;32";
@@ -730,6 +726,6 @@ echo$green2."=========>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<=========\n";
 echo $yellow."[$white$job$yellow] $blue2 ID: $lightcyan$id $blue2  NHẬN: ";
 echo $lightcyan.$kq;
 echo $white." XU: $xu\n";
-echo$green2."=========>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<==========\n\n";
 
-sleep(1);}}}
+
+	
